@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/liner_ver"
+        app:showAsAction="never"
+        android:title="LinerVer"/>
+    <item android:id="@+id/liner_hor"
+        app:showAsAction="never"
+        android:title="LinerHor"/>
+    <item
+        android:id="@+id/menu_grid"
+        android:title="gridView"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_stagger"
+        android:title="staggerView"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu_add"
+        android:title="Add"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_add"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:title="Delete"
+        android:icon="@drawable/ic_menu_delete"
+        app:showAsAction="always"
+        />
+</menu>
